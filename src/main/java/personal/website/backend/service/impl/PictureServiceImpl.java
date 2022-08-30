@@ -1,11 +1,13 @@
 package personal.website.backend.service.impl;
 
+import org.springframework.stereotype.Service;
 import personal.website.backend.model.Picture;
 import personal.website.backend.repository.PictureRepository;
 import personal.website.backend.service.PictureService;
 
 import java.util.List;
 
+@Service
 public class PictureServiceImpl  implements PictureService {
 
     private final PictureRepository pictureRepository;
@@ -18,4 +20,11 @@ public class PictureServiceImpl  implements PictureService {
     public List<Picture> findAll() {
         return this.pictureRepository.findAll();
     }
+
+    @Override
+    public Picture save(Picture picture) {
+        return this.pictureRepository.save(picture);
+    }
+
+
 }

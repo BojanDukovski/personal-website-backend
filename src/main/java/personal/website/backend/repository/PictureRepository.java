@@ -7,5 +7,6 @@ import java.util.List;
 
 @Repository
 public interface PictureRepository extends JpaRepository<Picture, Long> {
-    List<Picture> listAll();
+    List<Picture> findAll();
+    Picture save(Picture picture);
 }

@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 import personal.website.backend.model.Picture;
 import personal.website.backend.service.PictureService;
 
+import java.io.File;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/pictures")
-@CrossOrigin(origins = "https://library-lab2-emt-front.herokuapp.com")
 public class PictureController {
 
     private final PictureService pictureService;

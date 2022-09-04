@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/pictures")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://bojandukovski.herokuapp.com")
 public class PictureController {
 
     private final PictureService pictureService;

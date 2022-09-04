@@ -8,4 +8,6 @@ import java.util.List;
 public interface PictureService {
     List<Picture> findAll();
     Picture save (Picture picture);
+    Picture findById(Long id);
+    Picture findByName (String name);
 }

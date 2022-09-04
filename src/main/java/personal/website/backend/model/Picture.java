@@ -22,5 +22,10 @@ public class Picture {
         this.name = name;
         this.url = url;
     }
+    public Picture (Long id, String name, String url) {
+        this.id = id;
+        this.name = name;
+        this.url = url;
+    }
 }
 

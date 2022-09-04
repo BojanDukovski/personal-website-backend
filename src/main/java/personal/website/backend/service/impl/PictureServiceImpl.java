@@ -26,5 +26,15 @@ public class PictureServiceImpl  implements PictureService {
         return this.pictureRepository.save(picture);
     }
 
+    @Override
+    public Picture findById(Long id) {
+        return this.pictureRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public Picture findByName(String name) {
+        return this.pictureRepository.findByName(name);
+    }
+
 
 }

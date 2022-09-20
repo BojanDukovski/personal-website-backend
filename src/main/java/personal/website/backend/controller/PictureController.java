@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://bojandukovski.herokuapp.com")
+@CrossOrigin(origins = "http://bojandukovski.herokuapp.com")
 public class PictureController {
 
     private final PictureService pictureService;

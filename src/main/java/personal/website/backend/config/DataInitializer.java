@@ -37,12 +37,12 @@
 //                "photos). Developed great communication skills and hung out with many people from around the world.", "01/04/2016 – 01/01/2017", "/");
 //        this.projectRepository.save(project4);
 //
-//        Project project5 = new Project("Inkognito (nonprofit organization)", "Youth exchange project where we has a task to represent Republic of Macedonia to the world. We were staying at" +
-//                "Turkey for 6 days and brought specialities from our country to bring Macedonia close to the world. So much hanging out and love was" +
+//        Project project5 = new Project("Inkognito (nonprofit organization)", "Youth exchange project where we had a task to represent Republic of Macedonia to the world. We were staying at " +
+//                "Turkey for 6 days and brought specialities from our country to bring Macedonia close to the world. So much friendship and love was " +
 //                "floating in the air and the feeling was amazing.", "/", "/");
 //        this.projectRepository.save(project5);
 //
-//        Project project6 = new Project("ARS Longa exhibition", "Prints of photos that i took was for sale in front of Turkey museum in Bitola. All the money that was earned" +
+//        Project project6 = new Project("ARS Longa exhibition", "Prints of photos that i took was for sale in front of Turkish museum in Bitola. All the money that was earned" +
 //                " was given to charity.", "Interakt shiroksokak Bitola", "/");
 //        this.projectRepository.save(project6);
 //
